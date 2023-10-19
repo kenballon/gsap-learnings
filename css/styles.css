@@ -1,0 +1,28 @@
+@import '/css/_reboot.css';
+@import '/css/_util-class.css';
+
+:root {
+    --ff-primary: 'Silk Serif', serif;
+    --ff-secondary: 'Neue Montreal', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ff-secondary);
+}
+
+div,
+span,
+p {
+    font-family: var(--ff-primary);
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+}
