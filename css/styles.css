@@ -21,6 +21,11 @@ p {
     font-family: var(--ff-primary);
 }
 
+main,
+section {
+    position: relative;
+}
+
 .square {
     width: 150px;
     height: 150px;
