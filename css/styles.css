@@ -45,10 +45,4 @@ section {
 
 .h1-stagger h1 {
     overflow: hidden;
-
-    span.staggered-char {
-        font-family: var(--ff-primary);
-        display: inline-flex;
-        color: red;
-    }
 }
