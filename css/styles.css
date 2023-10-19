@@ -26,8 +26,29 @@ section {
     position: relative;
 }
 
-.square {
-    width: 150px;
-    height: 150px;
-    background-color: tomato;
+.squares {
+    /* overflow: hidden; */
+
+    .square {
+        width: 150px;
+        height: 150px;
+
+        &:nth-child(1) {
+            background-color: tomato;
+        }
+
+        &:nth-child(2) {
+            background-color: slateblue;
+        }
+    }
+}
+
+.h1-stagger h1 {
+    overflow: hidden;
+
+    span.staggered-char {
+        font-family: var(--ff-primary);
+        display: inline-flex;
+        color: red;
+    }
 }

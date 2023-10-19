@@ -9,6 +9,7 @@
     <!-- custom css styles -->
     <link rel="stylesheet" href="/css/styles.css">
     <script type="module" src="/scripts/app.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -16,15 +17,24 @@
         <section>
             <div class="container">
                 <div class="greetings">
-                    <h1>Welcome to Greensock Animation</h1>
+                    <h1 class="text-3xl">Welcome to Greensock Animation</h1>
                 </div>
-                <div class="square"></div>
+                <div class="squares flex gap-1">
+                    <div class="square"></div>
+                    <div class="square"></div>
+                </div>
+                <div class="h1-stagger">
+                    <h1 class="text-4xl m-1" id="headingH1">
+                        Hello, World
+                    </h1>
+                </div>
             </div>
         </section>
     </main>
 
     <!-- GSAP Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
 </body>
 
 </html>
